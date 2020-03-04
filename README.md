@@ -1,2 +1,5 @@
-# veeam_test_task_qa_automation
-Test task for QA Automation (Python) vacancy in VEEAM
+# disk_drive_info.py
+Решение задачи номер 1, в файле address.txt указан адрес устройства, информацию о котором надо получить
+
+# integrity.py
+Решение задачи номер 3, в файле file_list.txt указаны тестовые данные (имена файлов, тип хэш суммы, хэш)

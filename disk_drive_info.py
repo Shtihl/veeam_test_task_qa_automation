@@ -48,7 +48,7 @@ def load_drive_address(filepath):
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         drive_address = load_drive_address(sys.argv[1])
-        device_info = get_drive_info(drive_address)
-        print(' '.join(device_info.values()))
+        drive_info = get_drive_info(drive_address)
+        print(' '.join(drive_info.values()))
     else:
-        print('Usage: python driveinfo.py <file_name.txt>')
+        print('Usage: python disk_drive_info.py <file_name.txt>')
